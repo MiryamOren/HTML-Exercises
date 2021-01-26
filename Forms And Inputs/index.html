@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create an Account</h1>
+    <div id="email">
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+    </div>
+    <div id="password">
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" id="password">
+        <br>
+        <br>
+    </div>  
+    <div id="age">
+        <label for="age">Age:</label>
+        <br>
+        <select name="age" id="age">
+            <option value="" disabled selected>Select Age</option>
+            <option value="Under 18">Under 18</option>
+            <option value="Between 18 and 30">Between 18 and 30</option>
+            <option value="Between 30 and 50">Between 30 and 50</option>
+            <option value="Between 50 and 70">Between 50 and 70</option>
+            <option value="70 and above">70 and above</option>
+        </select>
+        <br>
+        <br>
+    </div>
+    <div id="freeText">
+        <label for="freeText">Tell us little about yourself</label>
+        <br>
+        <textarea name="freeText" id="freeText" cols="60" rows="7"></textarea>
+        <br>
+        <br>
+    </div>
+    <div id="checkbox">
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">
+            I agree to the <a href="#">termes of service</a>
+        </label>
+        <br>
+        <br>
+    </div>
+    <input type="submit" value="Sign up">
+</body>
+</html>
